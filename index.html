@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        function NotYet(){
+            alert("This is not enabled Yet - Looking for solution");
+        }    
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -57,7 +63,11 @@
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav">
                 <li><a href="https://github.com/robertmielewczyk">My Projects</a></li>
-                <li><a href="#section2">Section 2</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Files<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#" onclick="NotYet();return false";>Public Drive</a></li>
+                    </ul>
+                  </li>
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Programowanie<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                       <li><a href="https://snippet-generator.app/?description=&tabtrigger=&snippet=&mode=vscode">Visual Code Snippets</a></li>
