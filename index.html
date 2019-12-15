@@ -4,66 +4,12 @@
     <!--Script for inserting html--->
     <script src="/includeScript.js"></script>
 
-    <div include-html="/header.html"></div>
+    <div include-html="home/header.html"></div>
 
 </head>
 
 <body>
-    <!--Navigation Bar-->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
-            </button>
-            <a class="navbar-brand" href="https://robertmielewczyk.github.io/">MySpace</a>
-          </div>
-          <div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-              <ul class="nav navbar-nav">
-                <li><a href="https://github.com/robertmielewczyk">My Projects</a></li>
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Files<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#" onclick="NotYet();return false";>Public Drive</a></li>
-                      <li><a href="https://drive.google.com/drive/folders/1uW_9NdxPOckEn_3XwyidRVF0uwgC2c4U?usp=sharing" >Public Drive</a></li>
-                    </ul>
-                  </li>
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Programowanie<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="https://snippet-generator.app/?description=&tabtrigger=&snippet=&mode=vscode">Visual Code Snippets</a></li>
-                      <li><a href="https://free.nordvpn.com/">Darmowy VPN</a></li>
-                    </ul>
-                  </li>
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PJATK<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="https://robertmielewczyk.github.io/PJATK/HKJ.html">Historia I kultura Japoni</a></li>
-                    <li><a href="https://robertmielewczyk.github.io/PJATK/ASD.html">Algorytmy I Struktury Danych</a></li>
-                    <li><a href="https://robertmielewczyk.github.io/PJATK/WIA2.html">W i Architektura 2</a></li>
-                    <li><a href="https://robertmielewczyk.github.io/PJATK/szuflandia_linki.html">Linki na Szuflandi</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Erasmus<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="https://robertmielewczyk.github.io/Erasmus/Erasmus/Useful_links.html">Useful Links</a></li>
-                    <li><a href="https://robertmielewczyk.github.io/Erasmus/Erasmus/Computer_Graphics.html">Computer Graphics</a></li>
-                    <li><a href="https://robertmielewczyk.github.io/Erasmus/Erasmus/Multimedia_Technology.html">Multimedia Technology</a></li>
-                    <li><a href="https://robertmielewczyk.github.io/Erasmus/Erasmus/Audio_Speech.html">Audio and Speech</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>    
-
-      <div id="section1" class="container-fluid">
-            <h1>Welcome to my page!</h1>
-            <p>This is a place where i put my notes, important sites and my projects</p>
-            <p><a href="https://trello.com/robertmielewczyk/boards">My Trello</a></p>
-        </div>
-
-
+    <nav include-html="home/navigation.html"></nav> 
+    <div include-html="home/footer.html"></div>
 </body>
 </html>
