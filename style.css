@@ -2,7 +2,7 @@ body {
     position: relative; 
     height: 100%;
 }
-#section1 {padding-top:50px;height:100%;color: #fff; background-color: #ffffff;}
+#section1 {padding-top:50px;height:100%;color: black; background-color: #ffffff;}
 
 html {
     height: 100%;
